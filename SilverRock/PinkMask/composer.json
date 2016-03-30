@@ -1,0 +1,28 @@
+{
+    "name": "SilverRock/PinkMask",
+    "description": "Theme for the PinkMask e-commerce",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/theme-frontend-blank": "100.0.*",
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-theme",
+    "version": "0.0.1-beta",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+      "file": [
+          "registration.php"
+      ]  
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "frontend/Magento/blank"
+            ]
+        ]
+    }
+}
